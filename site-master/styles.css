@@ -1,0 +1,45 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Playfair+Display&family=Prata&family=Roboto+Mono:wght@300&family=Satisfy&display=swap');
+/* Bootstrap CSS */
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css');
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.myheader {
+  	text-align: center;
+}
+.secpara {
+	color: rgb(188, 182, 171);
+	font-size: 16px;
+}
+.secthead:after {
+	content: "";
+    	display: inline-block;
+    	height: 1px;
+    	width: 300px;
+    	background-color: rgb(48, 60, 85);
+    	position: relative;
+    	top: -5px;
+    	margin-left: 20px;
+}
+
+.d-block {
+	object-fit: cover;
+}
+    	
+.carousel-item {
+	width: 100%;
+  	text-align: center;
+}
+
+a.contactlink:hover {
+	font-size: 25px;
+}
+
